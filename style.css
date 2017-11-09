@@ -1,0 +1,24 @@
+.tweet{
+	background-color: lightblue;
+	border: solid 1px #ccc;
+	padding: 25px;
+	margin: 20px;
+}
+
+.cross{
+	background-color: grey;
+	border-radius: 50%;
+	width: 15px;
+	height: 15px;
+	float: right;
+}
+
+.glyphicon{
+	font-size: 20px;
+	font-weight: bold;
+	color: grey;
+}
+
+#counter{
+	color: grey;
+}
