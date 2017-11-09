@@ -1,9 +1,28 @@
+.jumbotron,
+h2{
+	color: #04B45F;
+	font-family: Helvetica;
+	text-align: center;
+}
+.list{
+	margin: 0 10%;
+}
 .tweet{
 	background-color: #CEF6E3;
 	border: solid 1px #ccc;
 	padding: 25px;
-	margin: 20px;
 	border-radius: 15px 50px 30px 5px;
+	margin: 5%;
+}
+
+textarea{
+	outline: none;
+	resize: none;
+	border-radius: 5px;
+}
+
+.write{
+	margin: 10%;
 }
 
 .cross{
@@ -19,3 +38,4 @@
 #counter{
 	color: grey;
 }
+

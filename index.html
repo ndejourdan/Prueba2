@@ -3,7 +3,6 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Mini Twitter</title>
-	<link rel="stylesheet" href="style.css">
 	<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
 	<script src="scripts.js"></script>
 	<!-- Latest compiled and minified CSS -->
@@ -14,30 +13,28 @@
 
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		
+	<link rel="stylesheet" href="style.css">
+
 
 </head>
 <body>
+	<div class="jumbotron">
+		<h1>Mini Twitter</h1>
+	</div>
 	<div class="row">
 		<div class="col-md-6">
-			<h1>Escribe...</h1>
-			<form id="form">
-				<textarea name="" id="content" cols="70" rows="5"></textarea>
-				<input type="submit" value="Twittear">
-			</form>
+			<div class="write">
+				<form id="form">
+					<textarea name="" id="content" placeholder="Twittea aquí..." cols="70" rows="10"></textarea>
+					<input type="submit" value="Twittear">
+				</form>
+			</div>
 		</div>
 		<div class="col-md-6">
-			<h2>Tweets</h2>
+			<h2>Tus Tweets</h2>
 			<div class="list">
-				<div class="tweet">
-					<div class="cross">
-						<a href="#" class="remove"><span class="glyphicon glyphicon-remove"></span></a>
-					</div>
-					<div class="heart">
-						<a class="likeable" href="#"><span class="glyphicon glyphicon-heart"></span></a>
-						<span id="counter">0</span>
-					</div>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id error rerum harum voluptate architecto inventore voluptates. Quasi odit repudiandae amet quis animi corporis facere illum, sapiente est, eius deserunt reprehenderit.
-				</div>
+			
 			</div>
 		</div>
 	</div>

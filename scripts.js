@@ -19,18 +19,17 @@ $(document).ready(function(){
 			
 	});
 
-	$('.list').on('click', '.remove', function(){
+	$('.list').on('click', '.remove', function(event){
 		$(this).parent().parent().fadeOut(500);
+		event.preventDefault();
 	})
 
-	$('.list').on('click', '.likeable', function(){
-		$(this).find('.glyphicon').css('color', '#F7819F')
-	})
-
-	$('.list').on('click', '.likeable', function(){
+	$('.list').on('click', '.likeable', function(event){
+		$(this).find('.glyphicon').css('color', '#F7819F');
+		event.preventDefault();
 		$(this).parent().find('#counter').html(function(i, val){
 			return val * 1 + 1
-		})
-	})
-
+	});
+	});
 })
+
